@@ -1,1 +1,7 @@
-<p>user-profile works!</p>
+<img [src]="photo" alt="my avatar" />
+<p>name : {{name}} </p>
+<p>firstname : {{firstname}} </p>
+<p [hidden]="clicked">age : {{age}} </p>
+<p>quote: {{quote}}</p>
+<p><input type="text" [(ngModel)]="quote"></p>
+<p><input type="submit" (click)="onClicked()" value="afficher/masquer l'age"></p> 
