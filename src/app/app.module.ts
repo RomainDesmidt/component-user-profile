@@ -3,9 +3,10 @@ import { NgModule } from "@angular/core";
 
 import { AppComponent } from "./app.component";
 import { BlockComponent } from "./block/block.component";
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
-  declarations: [AppComponent, BlockComponent],
+  declarations: [AppComponent, BlockComponent, UserProfileComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
