@@ -63,7 +63,8 @@
               "browserTarget": "component-challenge:build:production"
             },
             "development": {
-              "browserTarget": "component-challenge:build:development"
+              "browserTarget": "component-challenge:build:development",
+              "disableHostCheck": true
             }
           },
           "defaultConfiguration": "development"
